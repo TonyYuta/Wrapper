@@ -375,9 +375,6 @@ public class Run {
 		System.out.println(f_023); 
 		// Output: 1.0123457
 
-	
-		
-
 //		System.out.println("byte myPrimitiveByte = " + pw.getMyPrimitiveByte1());
 //		System.out.println("byte myPrimitiveByte = " + pw.getMyPrimitiveByte2());
 //		System.out.println("Byte myWrapperByte1 = " + pw.getMyWrapperByte1());
@@ -566,10 +563,10 @@ public class Run {
 		Integer[] wrIntegerArray01 = new Integer[] {-1232423535, 543542454};
 
 		// j.      BigInteger
-		BigInteger bi01 = new BigInteger("2142345256547658798605678564565475675");
-		BigInteger bi02 = new BigInteger("2142345256547658798605678564234223424565475675");
-		BigInteger bi03 = new BigInteger("214234525654765879860567856345344565475675");
-		BigInteger[] wrBigIntegerArray01 = new BigInteger[] {bi01, bi02, bi03};
+		BigInteger bi01 = new BigInteger("21445623452565476465584362547543735685368535675");
+		BigInteger bi02 = new BigInteger("2547654876975890780475675");
+		BigInteger bi03 = new BigInteger("2146568675987598574564565475467875");
+		BigInteger[] wrBigIntegerArray01 = new BigInteger[] {bi01, bi02, bi03, bi01, bi03, bi02};
 
 		// k.     Float
 		Float[] wrFloatArray01 = new Float[] {111.1234567F, 3.32421F};
@@ -578,9 +575,9 @@ public class Run {
 		Double[] myDoubleArray01 = new Double[] {-546363.423_645_867_857_846, 645323.75687373645};
 
 		// m.   BigDecimal
-		BigDecimal bd01 = new BigDecimal("13253462.634353454645365347537563734");
-		BigDecimal bd02 = new BigDecimal("124235423523523.345634");
-		BigDecimal bd03 = new BigDecimal("1.53436457365484685485547346346344");
+		BigDecimal bd01 = new BigDecimal("13253462.634778845365347537563734");
+		BigDecimal bd02 = new BigDecimal("123523523.345634");
+		BigDecimal bd03 = new BigDecimal("1.5343645736548466564485485547346346344");
 		BigDecimal bd04 = new BigDecimal("1456457457.346465475475434");
 		BigDecimal[] myBigDecimalArray01 = new BigDecimal[] {bd01, bd02, bd03, bd04};
 
